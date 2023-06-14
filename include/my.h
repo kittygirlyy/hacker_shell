@@ -21,6 +21,11 @@
     #define MAX_ARGS 20
     #define MAX_ENVS 496
 
+    /* ANSI COLORS */
+    #define ANSI_COLOR_GREEN "\x1b[32m"
+    #define ANSI_COLOR_RED   "\x1b[31m"
+    #define ANSI_COLOR_RESET "\x1b[0m"
+
     /* Source functions */
     int count_arg(char *buffer);
     char *check_arg(char *buffer, int nb_char);
@@ -34,7 +39,6 @@
     void cmd_clear(void);
     int env_handler(char *arg, char *next_arg);
     int fc_unsetenv(char **env_list, char *env, int nb_env);
-    void cmd_exit(void);
 
     /* Library functions */
     int my_printf(const char* format, ...);
