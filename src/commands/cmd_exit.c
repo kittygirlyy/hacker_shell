@@ -10,6 +10,6 @@
 void cmd_exit(void)
 {
     pid_t pid = getpid();
-    printf("PID actuel du programme : %d\n", pid);
-    exit(0);
+    printf("Successful killed %d\n", pid);
+    kill(pid, SIGTERM);
 }
