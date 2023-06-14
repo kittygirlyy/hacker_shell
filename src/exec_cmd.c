@@ -23,7 +23,7 @@ int exec_cmd(char *arg)
         return 0;
     }
     if (my_strcmp(save_arg, "exit") == 0) {
-        exit(0);
+        cmd_exit();
         return 0;
     }
     if (env_handler(save_arg, next_arg) == 0)

@@ -16,6 +16,7 @@ COMMANDS =	src/commands/cmd_cd.c \
 			src/commands/cmd_clear.c \
 			src/commands/cmd_env.c \
 			src/commands/cmd_unsetenv.c \
+			src/commands/cmd_exit.c \
 
 LDNAME = library/
 

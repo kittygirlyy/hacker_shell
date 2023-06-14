@@ -34,6 +34,7 @@
     void cmd_clear(void);
     int env_handler(char *arg, char *next_arg);
     int fc_unsetenv(char **env_list, char *env, int nb_env);
+    void cmd_exit(void);
 
     /* Library functions */
     int my_printf(const char* format, ...);
