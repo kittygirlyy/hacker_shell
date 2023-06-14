@@ -24,7 +24,7 @@ static void main_loop(char *buffer, size_t buffsize)
     while (1) {
         char cwd[1048];
         getcwd(cwd, sizeof(cwd));
-        my_printf("\n►►%s\n$>", cwd);
+        my_printf("\n%s►►%s\n$>%s", ANSI_COLOR_GREEN, cwd, ANSI_COLOR_RESET);
         getline(&buffer, &buffsize, stdin);
         int nb_char = count_arg(buffer);
         char *arg = check_arg(buffer, nb_char);
