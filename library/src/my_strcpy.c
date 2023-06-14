@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2022
+** PROJECT, 2023
 ** mylib
 ** File description:
 ** my_strcpy.c

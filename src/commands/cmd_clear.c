@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2022
+** PROJECT, 2023
 ** minishell1
 ** File description:
 ** cmd_clear.c
